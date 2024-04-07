@@ -1,0 +1,179 @@
+#navbar #header #acerca #mt #f {
+    height: 100%;
+}
+
+.navbar {
+    background-color: #373A3C;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+.bighero {
+    width: 100%;
+}
+
+/* css header */
+
+#header {
+    background-image: url(assets/img/bg-hero.jpg);
+    background-size: cover;
+    background-position: right;
+    padding: 50px; /* Ajusta según sea necesario */
+    height: 900px;
+    width: 100%;
+    justify-content: flex-end; /* Alinea el contenido al lado derecho */
+}
+
+.header-content {
+    position: absolute;
+    top: 40%; /* Coloca el contenedor en el centro verticalmente */
+    right: 5%; /* Coloca el contenedor al lado derecho */
+    transform: translateY(-30%); /* Centra verticalmente el contenedor */
+    text-align: right; /* Alinea el texto a la derecha */
+    padding-left:800px;
+    margin-right: 200px;
+}
+
+.text-container {
+    margin-right: 50px; /* Espacio entre el texto y los botones */
+}
+
+.buttons button {
+    margin-left: 50px; /* Espacio entre los botones */
+}
+
+
+.buttons {
+    margin-top: 20px;
+    margin-right: 50px;
+    /* Espacio superior entre el texto y los botones */
+}
+
+#h1h{
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: right;
+    letter-spacing: 1.5px; 
+}
+
+#ph{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0.5px; 
+}
+
+
+
+/* css section 'acerca de mi'*/
+
+#acm {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 0.5px
+}
+
+#h5 {
+    text-align: center;
+}
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo-item i {
+    font-size: 3rem;
+    /* Tamaño del ícono */
+}
+
+.logo-item h4,
+.logo-item p {
+    margin-top: 1.5rem;
+    /* Espacio entre el ícono y el texto */
+}
+
+/* css mis trabajos */
+
+#mt {
+    padding-bottom: 100px;
+}
+
+#h1mt {
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-weight: bold;
+    letter-spacing: 0.5px
+}
+
+/* Ajusta el tamaño de las imágenes dentro de las tarjetas */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    /* Ajusta la altura deseada */
+    object-fit: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+    transition: transform 0.3s ease;
+    /* Agrega una transición suave */
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    transform-origin: center center;
+    /* Establece el punto de origen de la transformación */
+}
+
+/* Agrega margen inferior a las tarjetas para separarlas */
+.mb-4 {
+    margin-bottom: 5rem;
+    /* Puedes ajustar el valor según el espacio deseado */
+}
+
+/* css contactame */
+
+#h1c {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#pc {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#c {
+    padding-bottom: 100px;
+}
+
+/* css footer */
+
+#f h3 {
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: lighter;
+}
